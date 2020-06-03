@@ -60,5 +60,48 @@ const STORE = [
 let score = 0;
 let questionNumber = 0;
 
+function generateQuestion() 
+// select question from STORE
+
+function updateScore()
+// if answer is correct, score++
+
+function updateQuestionNumber()
+// questionNumber++
+
+function resetStats()
+//score = 0
+// questionNumber = 0
+
+function startQuiz()
+// event listener on start startbutton
+// start button takes you to question 1
+// updateQuestionNumber
+
+function submitAnswer() 
+// checks selected answer against correct answer
+
+function createThing()
+//creates html for question form
+
+function correctAnswer()
+// feedback if answer is correct
+// score++
+
+function wrongAnswer()
+// feedback if asnwer is wrong
+
+function nextQuestion()
+// generates next question with generateQuestion
+
+function finalScore()
+// displays final score and gives feedback
+
+function restartQuiz()
+// takes user back to beginning of the Quiz
+
+function makeQuiz()
+//runs all the functions
+
 
 
