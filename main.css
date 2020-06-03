@@ -8,7 +8,7 @@ body {
 }
 
 .title-container {
-    border: 2px solid red;
+    border: 2px solid black;
     margin: 15px 0 15px 0;
     padding: 15px 0 15px 0;
     display: flex;
@@ -17,15 +17,17 @@ body {
     width: 85%;
     margin: 20px auto 20px auto;
     background-color: white;
+    max-width: 550px;
 }
 
 .q-a-container {
-    border: 2px solid red;
+    border: 2px solid black;
     display: flex;
     flex-direction: column;
     width: 85%;
     margin: auto;
     background-color: white;
+    max-width: 550px;
 }
 
 .answers > div {
@@ -59,4 +61,11 @@ img {
 h1, h2, p {
     text-align: center;
     color: black;
+    margin: 15px;
+}
+
+@media only screen and (min-width: 800px) {
+    .title-container, .q-a-container {
+        max-width: 550px;
+    }
 }
